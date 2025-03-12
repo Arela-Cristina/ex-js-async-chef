@@ -18,7 +18,7 @@ async function getChefBirthday(id) {
         throw new Error (error)
     
     } if (ricetta.message) {
-        throw new Error(recipes.message)
+        throw new Error(ricetta.message)
     } 
 
     let userId;
